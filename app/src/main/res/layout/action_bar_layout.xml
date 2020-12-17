@@ -9,7 +9,7 @@
 
     <androidx.appcompat.widget.AppCompatTextView
         android:gravity="center"
-        android:id="@+id/toolbar_tittle"
+        android:id="@+id/tv_tittle"
         style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
         android:text="@string/app_name"
         android:textColor="@color/white"
@@ -19,7 +19,7 @@
         app:layout_constraintEnd_toEndOf="parent"/>
 
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@+id/btnAdminLogin"
+        android:id="@+id/btn_adminPage"
         android:layout_alignParentEnd="true"
         android:layout_centerVertical="true"
         android:layout_marginEnd="16dp"
