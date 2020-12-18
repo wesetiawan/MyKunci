@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/mainPage"
+    android:padding="8dp"
+    android:layout_margin="8dp">
+
+        <TextView
+            android:layout_marginTop="18dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bluetooth Status: "
+            />
+
+        <TextView
+            android:id="@+id/tv_btStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Tersambung Server 1"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:layout_gravity="center"
+            android:src="@drawable/ic_camera"
+            android:layout_width="300dp"
+            android:layout_height="300dp"/>
+
+        <Button
+            android:id="@+id/btn_scanQr"
+            android:text="Scan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btn_scanBtMain"
+            android:text="Sambungkan Bluetooth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_marginEnd="2dp"
+                android:layout_weight="1"
+                android:id="@+id/btn_open"
+                android:text="Tutup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:layout_marginStart="2dp"
+                android:layout_weight="1"
+                android:id="@+id/btn_close"
+                android:text="Kunci"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+</LinearLayout>
