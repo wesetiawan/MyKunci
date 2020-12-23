@@ -9,6 +9,23 @@
 
     <include layout="@layout/action_bar_layout" />
 
+    <TextView
+        android:layout_marginTop="18dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bluetooth Status: "
+        />
+
+    <TextView
+        android:id="@+id/tv_btDevice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Tersambung Server 1"
+        android:textStyle="bold" />
+
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">

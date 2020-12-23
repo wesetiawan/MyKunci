@@ -1,14 +1,12 @@
 package com.example.mykunci
 
 import android.content.Intent
-import android.opengl.Visibility
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.isVisible
 
 class AdminLoginActivity : AppCompatActivity() {
 
@@ -22,7 +20,7 @@ class AdminLoginActivity : AppCompatActivity() {
         setContentView(R.layout.activity_admin_login)
 
 
-        btnAdminPageActivity = findViewById(R.id.btn_adminPage)
+        btnAdminPageActivity = findViewById(R.id.btnAdminPage)
         pageTittle = findViewById(R.id.tv_tittle)
         btnLogin = findViewById(R.id.btn_adminLogin)
 
