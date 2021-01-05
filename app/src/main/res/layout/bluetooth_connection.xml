@@ -14,9 +14,13 @@
         android:layout_height="wrap_content">
 
         <ListView
-            android:id="@+id/lvBtDevice"
+            android:id="@+id/lvPairedDevice"
             android:layout_width="match_parent"
-            android:layout_height="500dp"/>
+            android:layout_height="wrap_content"/>
+        <ListView
+            android:id="@+id/discoverDevice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
 
         <LinearLayout
             android:weightSum="2"
@@ -33,7 +37,7 @@
             <Button
                 android:layout_marginStart="2dp"
                 android:layout_weight="1"
-                android:id="@+id/btnConnect"
+                android:id="@+id/btnAction"
                 android:text="Sambungkan"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>

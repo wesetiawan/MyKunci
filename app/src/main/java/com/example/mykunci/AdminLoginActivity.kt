@@ -20,7 +20,7 @@ class AdminLoginActivity : AppCompatActivity() {
         setContentView(R.layout.activity_admin_login)
 
 
-        btnAdminPageActivity = findViewById(R.id.btnAdminPage)
+        btnAdminPageActivity = findViewById(R.id.btnActionTopBar)
         pageTittle = findViewById(R.id.tv_tittle)
         btnLogin = findViewById(R.id.btn_adminLogin)
 
